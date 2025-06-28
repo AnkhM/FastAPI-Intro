@@ -2,6 +2,9 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 """
+Start uvicorn server:
+uvicorn main:app --reload
+
 curl commands:
 
 Post with JSON Payload:
